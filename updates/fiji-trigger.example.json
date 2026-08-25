@@ -1,0 +1,10 @@
+{
+  "changes": {
+    "trigger_statement": {
+      "set": "Activate when the updated cyclone forecast threshold is reached."
+    },
+    "trigger_threshold_justification": {
+      "set": "The updated threshold preserves enough lead time for safe early action."
+    }
+  }
+}
