@@ -304,8 +304,3 @@ reviewing the corresponding remote record.
 - Never run `apply` again just because a POST may have succeeded.
 - Never call or add status, revise, approval, agreement, sharing, activation, or
   deletion workflows to this migration tool.
-
-For the detailed operator procedure, see
-[MIGRATION-PROCEDURE.md](MIGRATION-PROCEDURE.md). For the implementation
-specification, see
-[LUNA-EAP-MIGRATION-IMPLEMENTATION-INSTRUCTIONS.md](LUNA-EAP-MIGRATION-IMPLEMENTATION-INSTRUCTIONS.md).
