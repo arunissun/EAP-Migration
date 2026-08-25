@@ -18,6 +18,9 @@ artifacts/
 # Markdown specifications and user-facing documentation remain local.
 *.md
 
+# The local API reference guide remains outside version control.
+IFRC GO_ EAP API Quick Guide.docx
+
 # Local source documents and operator overrides
 fixtures/local/
 cases/local/
