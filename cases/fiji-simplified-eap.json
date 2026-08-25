@@ -1,0 +1,167 @@
+{
+  "eap_kind": "simplified",
+  "migration_key": "fiji-cyclone-seap-2026",
+  "registration": {
+    "country": 66,
+    "national_society": 66,
+    "disaster_type": 4,
+    "disaster_sub_type": "",
+    "eap_type": 20,
+    "expected_submission_time": "2027-07-01",
+    "partners": [72, 84],
+    "users": [9634],
+    "national_society_contact_name": "UAT Applicant 2451",
+    "national_society_contact_title": "HEOPS Manager",
+    "national_society_contact_email": "${GO_EAP_CONTACT_EMAIL}",
+    "national_society_contact_phone_number": "",
+    "ifrc_contact_name": "Synthetic IFRC Contact",
+    "ifrc_contact_title": "Manager Operations",
+    "ifrc_contact_email": "${GO_EAP_CONTACT_EMAIL}",
+    "ifrc_contact_phone_number": "",
+    "dref_focal_point_name": "Synthetic DREF Contact",
+    "dref_focal_point_title": "DREF Senior Officer",
+    "dref_focal_point_email": "${GO_EAP_CONTACT_EMAIL}",
+    "dref_focal_point_phone_number": ""
+  },
+  "admin2_selection": {
+    "country_iso3": ["FJI"],
+    "include_ids": [],
+    "include_codes": [],
+    "include_names": [],
+    "required": false
+  },
+  "files": {
+    "cover": {"path": "../fixtures/fiji/cover.png", "caption": "Fiji cyclone cover", "required": true},
+    "budget": {"path": "../fixtures/fiji/budget.xlsx", "caption": "Fiji budget", "required": true},
+    "risk_evidence": {"path": "../fixtures/fiji/risk-evidence.pdf", "caption": "Risk evidence", "required": true},
+    "protocol_evidence": {"path": "../fixtures/fiji/protocol-evidence.pdf", "caption": "Protocol evidence", "required": true},
+    "early_action_evidence": {"path": "../fixtures/fiji/early-action-evidence.pdf", "caption": "Early-action evidence", "required": true}
+  },
+  "application": {
+    "partners": [72, 84],
+    "include_rcrc_climate_center": true,
+    "cover_image_file": "cover",
+    "seap_timeframe": 2,
+    "national_society_contact_name": "UAT Applicant 2451",
+    "national_society_contact_title": "HEOPS Manager",
+    "national_society_contact_email": "${GO_EAP_CONTACT_EMAIL}",
+    "national_society_contact_phone_number": "",
+    "dref_focal_point_name": "Synthetic DREF Contact",
+    "dref_focal_point_title": "DREF Senior Officer",
+    "dref_focal_point_email": "${GO_EAP_CONTACT_EMAIL}",
+    "dref_focal_point_phone_number": "",
+    "ifrc_regional_focal_point_name": "Synthetic Regional Focal Point",
+    "ifrc_regional_focal_point_title": "Regional Focal Point",
+    "ifrc_regional_focal_point_email": "${GO_EAP_CONTACT_EMAIL}",
+    "ifrc_regional_focal_point_phone_number": "",
+    "ifrc_regional_ops_manager_name": "Synthetic Operations Manager",
+    "ifrc_regional_ops_manager_title": "Operations Manager",
+    "ifrc_regional_ops_manager_email": "${GO_EAP_CONTACT_EMAIL}",
+    "ifrc_regional_ops_manager_phone_number": "",
+    "ifrc_regional_head_dcc_name": "Synthetic DCC Head",
+    "ifrc_regional_head_dcc_title": "Regional Head of DCC",
+    "ifrc_regional_head_dcc_email": "${GO_EAP_CONTACT_EMAIL}",
+    "ifrc_regional_head_dcc_phone_number": "",
+    "partner_contacts": [
+      {"name": "Synthetic Partner Contact", "email": "${GO_EAP_CONTACT_EMAIL}", "title": "Partner focal point", "phone_number": ""}
+    ],
+    "prioritized_hazard_and_impact": "Fiji communities face severe cyclone winds, flooding and damage to homes and essential services.",
+    "hazard_impact_files": ["risk_evidence"],
+    "risks_selected_protocols": "The protocol prioritizes exposed communities using forecast information and agreed vulnerability criteria.",
+    "risk_selected_protocols_files": ["protocol_evidence"],
+    "selected_early_actions": "Selected actions include early warning, shelter support, WASH items and protection measures.",
+    "selected_early_actions_files": ["early_action_evidence"],
+    "overall_objective_intervention": "Reduce the humanitarian effects of a severe cyclone through timely and accountable early action.",
+    "potential_geographical_high_risk_areas": "Forecast-exposed communities in Fiji identified through the activation protocol.",
+    "total_people_targeted": 2000,
+    "assisted_through_operation": "Targeted households receive warnings, essential items and locally coordinated support before impact.",
+    "selection_criteria": "Selection prioritizes forecast exposure, vulnerability and limited capacity to prepare independently.",
+    "trigger_statement": "The EAP activates when the agreed cyclone forecast threshold is reached.",
+    "seap_lead_timeframe_unit": 30,
+    "seap_lead_time": 5,
+    "activation_timeframe_unit": 20,
+    "activation_timeframe": 3,
+    "trigger_threshold_justification": "The threshold provides actionable lead time while maintaining sufficient forecast confidence.",
+    "next_step_towards_full_eap": "Continue evidence collection and develop the expanded Full EAP trigger model.",
+    "planned_operations": [
+      {
+        "sector": 101,
+        "people_targeted": 2000,
+        "budget_per_sector": 41452,
+        "indicators": [{"title": "Households receiving shelter-strengthening support", "target": 400}],
+        "readiness_activities": [{"activity": "Train volunteers and communities on safe shelter kit use", "timeframe": 10, "time_value": [1]}],
+        "prepositioning_activities": [{"activity": "Pre-position safe shelter kits", "timeframe": 20, "time_value": [1]}],
+        "early_action_activities": [{"activity": "Distribute safe shelter kits before cyclone impact", "timeframe": 30, "time_value": [1]}]
+      },
+      {
+        "sector": 102,
+        "people_targeted": 2000,
+        "budget_per_sector": 2284,
+        "indicators": [{"title": "Households receiving livelihood-protection items", "target": 400}],
+        "readiness_activities": [{"activity": "Prepare volunteers for livelihood item distribution", "timeframe": 10, "time_value": [1]}],
+        "prepositioning_activities": [{"activity": "Pre-position boat-strengthening kits and hermetic bags", "timeframe": 20, "time_value": [1]}],
+        "early_action_activities": [{"activity": "Distribute livelihood-protection items", "timeframe": 30, "time_value": [1]}]
+      },
+      {
+        "sector": 104,
+        "people_targeted": 2000,
+        "budget_per_sector": 8722,
+        "indicators": [{"title": "Households receiving health-promotion messages", "target": 400}],
+        "readiness_activities": [{"activity": "Prepare staff and volunteers to deliver health messaging", "timeframe": 10, "time_value": [1]}],
+        "prepositioning_activities": [{"activity": "Prepare health-promotion materials", "timeframe": 20, "time_value": [1]}],
+        "early_action_activities": [{"activity": "Disseminate tailored health alerts and prevention messages", "timeframe": 30, "time_value": [1]}]
+      },
+      {
+        "sector": 107,
+        "people_targeted": 2000,
+        "budget_per_sector": 15451,
+        "indicators": [{"title": "Households receiving water-storage and hygiene items", "target": 400}],
+        "readiness_activities": [{"activity": "Prepare volunteers for WASH distributions", "timeframe": 10, "time_value": [1]}],
+        "prepositioning_activities": [{"activity": "Pre-position jerry cans and soap", "timeframe": 20, "time_value": [1]}],
+        "early_action_activities": [{"activity": "Distribute jerry cans and soap before impact", "timeframe": 30, "time_value": [1]}]
+      },
+      {
+        "sector": 103,
+        "people_targeted": 2000,
+        "budget_per_sector": 6397,
+        "indicators": [{"title": "Staff and volunteers trained on protection, gender and inclusion", "target": 160}],
+        "readiness_activities": [{"activity": "Train staff and volunteers on protection, gender and inclusion", "timeframe": 10, "time_value": [1]}],
+        "prepositioning_activities": [{"activity": "Prepare accessible community information materials", "timeframe": 20, "time_value": [1]}],
+        "early_action_activities": [{"activity": "Monitor inclusion of people facing greatest vulnerability", "timeframe": 30, "time_value": [1]}]
+      }
+    ],
+    "enabling_approaches": [
+      {
+        "approach": 30,
+        "budget_per_approach": 249,
+        "indicators": [{"title": "Coordination meetings completed", "target": 1}],
+        "readiness_activities": [{"activity": "Coordinate with NDMO, FMS, OCHA and operational partners", "timeframe": 10, "time_value": [1]}],
+        "prepositioning_activities": [{"activity": "Confirm partner stocks and distribution responsibilities", "timeframe": 20, "time_value": [1]}],
+        "early_action_activities": [{"activity": "Coordinate activation to avoid duplication", "timeframe": 30, "time_value": [1]}]
+      },
+      {
+        "approach": 10,
+        "budget_per_approach": 10591,
+        "indicators": [{"title": "IFRC support actions completed", "target": 1}],
+        "readiness_activities": [{"activity": "Maintain IFRC technical and operational support", "timeframe": 10, "time_value": [1]}],
+        "prepositioning_activities": [{"activity": "Prepare IFRC support for activation logistics", "timeframe": 20, "time_value": [1]}],
+        "early_action_activities": [{"activity": "Provide IFRC support during activation", "timeframe": 30, "time_value": [1]}]
+      },
+      {
+        "approach": 20,
+        "budget_per_approach": 26666,
+        "indicators": [{"title": "Fiji Red Cross branches ready to activate", "target": 16}],
+        "readiness_activities": [{"activity": "Strengthen branch readiness and volunteer capacity", "timeframe": 10, "time_value": [1]}],
+        "prepositioning_activities": [{"activity": "Prepare branch warehousing and stock management", "timeframe": 20, "time_value": [1]}],
+        "early_action_activities": [{"activity": "Mobilize trained Fiji Red Cross volunteers", "timeframe": 30, "time_value": [1]}]
+      }
+    ],
+    "early_action_capability": "Fiji Red Cross has trained volunteers, branch structures and operational systems for early action.",
+    "rcrc_movement_involvement": "The National Society coordinates with IFRC and Movement partners throughout readiness and activation.",
+    "budget_file": "budget",
+    "total_budget": 111812,
+    "readiness_budget": 51628,
+    "pre_positioning_budget": 17112,
+    "early_action_budget": 43072
+  }
+}
