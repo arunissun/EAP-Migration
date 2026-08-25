@@ -1,0 +1,23 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.pyright/
+.coverage
+htmlcov/
+*.py[cod]
+
+.env
+.env.*
+!.env.example
+
+.state/
+artifacts/
+*.log
+
+# Markdown specifications and user-facing documentation remain local.
+*.md
+
+# Local source documents and operator overrides
+fixtures/local/
+cases/local/
