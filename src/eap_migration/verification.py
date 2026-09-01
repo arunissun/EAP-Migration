@@ -10,6 +10,9 @@ SET_FIELDS = {
     "partners",
     "users",
 }
+NUMERIC_STRING_FIELDS = {
+    "lead_time",
+}
 
 
 @dataclass(slots=True)
@@ -30,6 +33,10 @@ def _normalize(value: Any, path: str = "") -> Any:
         if field in SET_FIELDS:
             return sorted(normalized, key=lambda item: repr(item))
         return normalized
+    if path in NUMERIC_STRING_FIELDS and isinstance(value, int) and not isinstance(value, bool):
+        # Staging serializes a numeric Full-EAP lead_time as an integer even
+        # though the OpenAPI contract and form input use a string.
+        return str(value)
     return value
 
 

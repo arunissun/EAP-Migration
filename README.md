@@ -39,6 +39,7 @@ Put the token value in `.env`:
 ```text
 GO_EAP_API_TOKEN=the-token-value-only
 GO_EAP_CONTACT_EMAIL=approved-test-email@example.org
+GO_EAP_CONTACT_PHONE=approved-test-phone-number
 ```
 
 Do not add `Token ` before the token. The tool adds that part itself. Never put
@@ -90,6 +91,9 @@ placeholder instead of putting a reusable personal email directly in the file:
 ```json
 "national_society_contact_email": "${GO_EAP_CONTACT_EMAIL}"
 ```
+
+Use `${GO_EAP_CONTACT_PHONE}` in a case file when an approved test phone number
+is required. Do not copy personal contact details from a source PDF into staging.
 
 A file is declared once in `files` and referenced by its logical name in the
 application:

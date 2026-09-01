@@ -1,0 +1,215 @@
+{
+  "eap_kind": "full",
+  "migration_key": "training-fiji-cyclone-full-eap",
+  "completeness_profile": "strict",
+  "registration": {
+    "country": 66,
+    "national_society": 66,
+    "disaster_type": 4,
+    "disaster_sub_type": "",
+    "eap_type": 10,
+    "expected_submission_time": "2027-12-01",
+    "partners": [72, 84],
+    "users": [9634],
+    "national_society_contact_name": "UAT Applicant 2451",
+    "national_society_contact_title": "HEOPS Manager",
+    "national_society_contact_email": "${GO_EAP_CONTACT_EMAIL}",
+    "national_society_contact_phone_number": "${GO_EAP_CONTACT_PHONE}",
+    "ifrc_contact_name": "Synthetic IFRC Contact",
+    "ifrc_contact_title": "Manager Operations",
+    "ifrc_contact_email": "${GO_EAP_CONTACT_EMAIL}",
+    "ifrc_contact_phone_number": "${GO_EAP_CONTACT_PHONE}",
+    "dref_focal_point_name": "Synthetic DREF Contact",
+    "dref_focal_point_title": "DREF and Anticipatory Action Officer",
+    "dref_focal_point_email": "${GO_EAP_CONTACT_EMAIL}",
+    "dref_focal_point_phone_number": "${GO_EAP_CONTACT_PHONE}"
+  },
+  "admin2_selection": {
+    "country_iso3": ["FJI"],
+    "include_ids": [],
+    "include_codes": [],
+    "include_names": [],
+    "required": false
+  },
+  "files": {
+    "cover": {"path": "../fixtures/full/cover.png", "caption": "Fiji cyclone anticipatory action cover image", "required": true},
+    "budget": {"path": "../fixtures/full/budget.xlsx", "caption": "Fiji cyclone Full EAP budget", "required": true},
+    "hazard_selection": {"path": "../fixtures/full/hazard-selection.pdf", "caption": "Cyclone hazard selection evidence", "required": true},
+    "vulnerability": {"path": "../fixtures/full/vulnerability.pdf", "caption": "Exposure and vulnerability evidence", "required": true},
+    "prioritized_impact": {"path": "../fixtures/full/prioritized-impact.pdf", "caption": "Prioritized cyclone impacts evidence", "required": true},
+    "risk_analysis_relevant": {"path": "../fixtures/full/risk-analysis-relevant.pdf", "caption": "Risk analysis supporting material", "required": true},
+    "forecast_selection": {"path": "../fixtures/full/forecast-selection.pdf", "caption": "Forecast selection and performance evidence", "required": true},
+    "forecast_table": {"path": "../fixtures/full/forecast-table.xlsx", "caption": "Trigger and forecast decision table", "required": true},
+    "impact_level": {"path": "../fixtures/full/impact-level.pdf", "caption": "Impact level definition evidence", "required": true},
+    "intervention_area": {"path": "../fixtures/full/intervention-area.pdf", "caption": "Intervention area selection evidence", "required": true},
+    "trigger_model_relevant": {"path": "../fixtures/full/trigger-model-relevant.pdf", "caption": "Trigger model supporting material", "required": true},
+    "action_selection": {"path": "../fixtures/full/action-selection.pdf", "caption": "Early action selection workshop record", "required": true},
+    "theory_of_change": {"path": "../fixtures/full/theory-of-change.docx", "caption": "Theory of change table", "required": true},
+    "evidence_base_relevant": {"path": "../fixtures/full/evidence-base-relevant.pdf", "caption": "Early action evidence base", "required": true},
+    "implementation": {"path": "../fixtures/full/implementation.pdf", "caption": "Early action implementation procedure", "required": true},
+    "activation_system": {"path": "../fixtures/full/activation-system.pdf", "caption": "Trigger activation and authorization procedure", "required": true},
+    "activation_relevant": {"path": "../fixtures/full/activation-relevant.pdf", "caption": "Activation process supporting material", "required": true},
+    "meal_relevant": {"path": "../fixtures/full/meal-relevant.pdf", "caption": "MEAL plan and tools", "required": true},
+    "capacity_relevant": {"path": "../fixtures/full/capacity-relevant.pdf", "caption": "National Society capacity assessment", "required": true}
+  },
+  "application": {
+    "partners": [72, 84],
+    "include_rcrc_climate_center": true,
+    "cover_image_file": "cover",
+    "total_people_targeted": 10000,
+    "national_society_contact_name": "UAT Applicant 2451",
+    "national_society_contact_title": "HEOPS Manager",
+    "national_society_contact_email": "${GO_EAP_CONTACT_EMAIL}",
+    "national_society_contact_phone_number": "${GO_EAP_CONTACT_PHONE}",
+    "partner_contacts": [
+      {"name": "Synthetic Partner Contact", "email": "${GO_EAP_CONTACT_EMAIL}", "title": "Partner focal point", "phone_number": "${GO_EAP_CONTACT_PHONE}"}
+    ],
+    "dref_focal_point_name": "Synthetic DREF Contact",
+    "dref_focal_point_title": "DREF and Anticipatory Action Officer",
+    "dref_focal_point_email": "${GO_EAP_CONTACT_EMAIL}",
+    "dref_focal_point_phone_number": "${GO_EAP_CONTACT_PHONE}",
+    "ifrc_regional_focal_point_name": "Synthetic Regional Focal Point",
+    "ifrc_regional_focal_point_title": "Regional Focal Point",
+    "ifrc_regional_focal_point_email": "${GO_EAP_CONTACT_EMAIL}",
+    "ifrc_regional_focal_point_phone_number": "${GO_EAP_CONTACT_PHONE}",
+    "ifrc_regional_ops_manager_name": "Synthetic Operations Manager",
+    "ifrc_regional_ops_manager_title": "Operations Manager",
+    "ifrc_regional_ops_manager_email": "${GO_EAP_CONTACT_EMAIL}",
+    "ifrc_regional_ops_manager_phone_number": "${GO_EAP_CONTACT_PHONE}",
+    "ifrc_regional_head_dcc_name": "Synthetic DCC Head",
+    "ifrc_regional_head_dcc_title": "Regional Head of DCC",
+    "ifrc_regional_head_dcc_email": "${GO_EAP_CONTACT_EMAIL}",
+    "ifrc_regional_head_dcc_phone_number": "${GO_EAP_CONTACT_PHONE}",
+    "expected_submission_time": "2027-12-01",
+    "objective": "Reduce avoidable cyclone-related displacement, health risks and loss of essential household assets by activating agreed early actions before damaging winds, heavy rain and storm surge affect exposed communities.",
+    "is_worked_with_government": true,
+    "worked_with_government_description": "The National Society will maintain the protocol with the National Disaster Management Office and affected local authorities, align public messages with official advisories, and coordinate activation decisions through the national emergency coordination arrangements.",
+    "key_actors": [
+      {"partner": "National Disaster Management Office", "description": "Coordinates national preparedness arrangements, shares official advisories and links the activation decision to government-led response coordination."},
+      {"partner": "Fiji Meteorological Service", "description": "Provides tropical cyclone outlooks, warnings and forecast updates used to monitor the agreed trigger indicators."},
+      {"partner": "Community and branch leadership", "description": "Validates local targeting, supports inclusive early-warning dissemination and oversees safe delivery of agreed actions."}
+    ],
+    "is_technical_working_groups": true,
+    "technically_working_group_title": "Cyclone Anticipatory Action Technical Working Group",
+    "technical_working_groups_in_place_description": "The working group reviews forecast performance, exposure information, trigger evidence and proposed early actions before recommending protocol updates.",
+    "hazard_selection": "Tropical cyclones are selected because they can bring damaging winds, intense rainfall, river and coastal flooding, and storm surge with enough forecast lead time to protect people, shelters, water supplies and essential household assets.",
+    "hazard_selection_files": ["hazard_selection"],
+    "exposed_element_and_vulnerability_factor": "The protocol focuses on coastal and low-lying communities where housing quality, distance from services, disability, age, limited transport options and dependence on rainwater or local livelihoods can increase the consequences of a severe cyclone. Households with older people, persons with disabilities, pregnant or lactating women, children and people living in remote islands require accessible warning and tailored support.",
+    "exposed_element_and_vulnerability_factor_files": ["vulnerability"],
+    "prioritized_impact": "Priority impacts are injury and displacement caused by wind and flooding, damage to lightweight homes, interruption of safe water access, loss of essential household items and reduced ability to reach evacuation centres or health services.",
+    "prioritized_impacts": [
+      {"impact": "Damage to lightweight homes and household assets in exposed coastal and low-lying communities."},
+      {"impact": "Interruption of safe water access and increased public-health risk after heavy rain, flooding or storm surge."},
+      {"impact": "Avoidable injury, unsafe evacuation and disproportionate impacts on people with limited mobility or access to information."}
+    ],
+    "prioritized_impact_files": ["prioritized_impact"],
+    "risk_analysis_relevant_files": ["risk_analysis_relevant"],
+    "risk_analysis_source_of_information": [
+      {"source_name": "Fiji Meteorological Service", "source_link": "https://www.met.gov.fj/"},
+      {"source_name": "National Disaster Management Office", "source_link": "https://ndmo.gov.fj/"}
+    ],
+    "trigger_statement": "Activate the protocol when the agreed Fiji Meteorological Service tropical cyclone forecast indicates at least a 60 percent probability of sustained gale-force winds or stronger affecting the selected intervention area within 72 hours, and the technical working group confirms that the expected impacts exceed locally agreed action thresholds.",
+    "lead_timeframe_unit": 30,
+    "lead_time": "3",
+    "trigger_statement_source_of_information": [
+      {"source_name": "Fiji Meteorological Service tropical cyclone forecast service", "source_link": "https://www.met.gov.fj/"}
+    ],
+    "forecast_selection": "The trigger uses the official tropical cyclone forecast service because it is routinely monitored, provides updates during the lead time, and can be discussed with national authorities. The forecast table records the probability, likely wind and rainfall impacts, affected areas, confidence and recommended action at each decision point.",
+    "forecast_selection_files": ["forecast_selection"],
+    "forecast_table_file": "forecast_table",
+    "definition_and_justification_impact_level": "The activation level represents forecast conditions likely to cause damaging winds and flooding that exceed normal household coping capacity in selected communities. The level is justified by the combined likelihood of hazard, exposure, vulnerability and the time needed to complete safe pre-agreed actions.",
+    "definition_and_justification_impact_level_files": ["impact_level"],
+    "identification_of_the_intervention_area": "Intervention areas are selected using the forecast track and wind-field information together with exposure, housing, access constraints, water-security risks and community validation. The final operational list is confirmed with branches and local authorities when the trigger is met.",
+    "identification_of_the_intervention_area_files": ["intervention_area"],
+    "trigger_model_relevant_files": ["trigger_model_relevant"],
+    "trigger_model_source_of_information": [
+      {"source_name": "World Meteorological Organization Tropical Cyclone Programme", "source_link": "https://community.wmo.int/en/activity-areas/disaster-risk-reduction-and-resilience/tropical-cyclone-programme"}
+    ],
+    "early_actions": [
+      {"action": "Issue accessible, community-validated early-warning messages and support household preparedness actions before conditions deteriorate."},
+      {"action": "Pre-position and distribute agreed shelter, water-storage and hygiene items to prioritized households and evacuation centres."},
+      {"action": "Support inclusive evacuation-centre readiness, including safe water, sanitation, protection and referral arrangements."}
+    ],
+    "early_action_selection_process": "The National Society, community representatives, branches, government counterparts and technical partners screened proposed actions against forecast lead time, expected impact reduction, inclusion, delivery feasibility, safeguarding and available evidence. Actions were retained only where responsibilities, suppliers, transport and community communication could be pre-agreed.",
+    "early_action_selection_process_files": ["action_selection"],
+    "theory_of_change_table_file": "theory_of_change",
+    "evidence_base": "The selected actions are intended to reduce avoidable exposure to cyclone impacts by enabling households to receive and act on warnings, protect essential items, access safe water and use safer evacuation arrangements before severe conditions make movement and delivery unsafe.",
+    "evidence_base_relevant_files": ["evidence_base_relevant"],
+    "evidence_base_source_of_information": [
+      {"source_name": "IFRC Anticipatory Action", "source_link": "https://www.ifrc.org/anticipatory-action"}
+    ],
+    "usefulness_of_actions": "The actions reduce foreseeable harm by addressing the practical barriers that prevent households from preparing, evacuating safely or maintaining safe water and hygiene during the first days of a cyclone impact.",
+    "feasibility": "Branches can mobilize trained volunteers, activate pre-agreed suppliers and coordinate distribution points with local authorities. The protocol includes clear decision roles, accessible communication channels, transport planning and accountability measures that can operate within a 72-hour lead time.",
+    "early_action_implementation_process": "After the trigger is confirmed, the National Society operations centre documents the decision, releases the approved action plan, mobilizes branches and vendors, and monitors completion through daily operational updates. Branch teams confirm targeting and distribution arrangements with community leaders and local authorities before delivery.",
+    "early_action_implementation_files": ["implementation"],
+    "trigger_activation_system": "The designated forecast focal point monitors the official forecast. The technical working group validates the evidence against the protocol, the authorized decision-maker records the activation decision, and the operations centre issues written instructions to branches, partners and suppliers.",
+    "trigger_activation_system_files": ["activation_system"],
+    "activation_process_relevant_files": ["activation_relevant"],
+    "activation_process_source_of_information": [
+      {"source_name": "National Disaster Management Office", "source_link": "https://ndmo.gov.fj/"}
+    ],
+    "selection_of_target_population": "Targeting combines forecast exposure with vulnerability and protection criteria. Branches validate household lists with communities while prioritizing people living in fragile housing, remote areas, households with limited transport or safe-water access, and people who may need accessible warning, evacuation or assistance.",
+    "stop_mechanism": "The operations centre pauses procurement or distribution that has not yet started when an updated official forecast shows that the agreed threshold is no longer expected in the intervention area. The decision, forecast evidence, commitments already made and any safe redirection of goods are documented and communicated promptly.",
+    "meal": "MEAL teams will track whether warnings reached priority groups, whether actions were completed before hazardous conditions, who was reached, barriers to inclusion, community feedback, safeguarding concerns and post-activation outcomes. Findings will be reviewed with branches and partners to improve the protocol.",
+    "meal_relevant_files": ["meal_relevant"],
+    "meal_source_of_information": [
+      {"source_name": "IFRC Community Engagement and Accountability", "source_link": "https://www.ifrc.org/our-work/community-engagement-and-accountability"}
+    ],
+    "operational_administrative_capacity": "The National Society maintains branch networks, trained volunteers, procurement procedures, financial controls and operational coordination arrangements that can support an anticipatory activation. The EAP will be tested through simulations and after-action reviews before use.",
+    "capacity_relevant_files": ["capacity_relevant"],
+    "ns_capacity_source_of_information": [
+      {"source_name": "Fiji Red Cross Society", "source_link": "https://redcross.com.fj/"}
+    ],
+    "strategies_and_plans": "The EAP aligns with National Society preparedness and contingency planning, branch-level response arrangements and government disaster-management coordination. It complements rather than replaces early warning, evacuation and response responsibilities held by authorities and communities.",
+    "advance_financial_capacity": "Pre-agreed financial procedures, procurement thresholds and vendor arrangements will allow controlled release of funds after authorization. Each activation will retain documentation for commitments, delivery, reconciliation and any decision to stop or adapt an action.",
+    "planned_operations": [
+      {
+        "sector": 101,
+        "people_targeted": 6000,
+        "budget_per_sector": 40000,
+        "indicators": [{"title": "Priority households receiving pre-agreed shelter and household-protection support before cyclone impact", "target": 1200}],
+        "readiness_activities": [{"activity": "Train branch teams on inclusive targeting, safe distributions and household preparedness messaging", "timeframe": 20, "time_value": [6]}],
+        "prepositioning_activities": [{"activity": "Pre-position tarpaulins, ropes, repair kits and distribution materials with approved suppliers and branches", "activation_one": true, "activation_two": false}],
+        "early_action_activities": [{"activity": "Deliver pre-agreed shelter and household-protection items to validated priority households", "timeframe": 30, "time_value": [3], "activation_one": true, "activation_two": false}]
+      },
+      {
+        "sector": 107,
+        "people_targeted": 7000,
+        "budget_per_sector": 25000,
+        "indicators": [{"title": "Priority households and evacuation centres with water-storage and hygiene support before impact", "target": 1400}],
+        "readiness_activities": [{"activity": "Agree water, sanitation and hygiene support packages with branches and local authorities", "timeframe": 20, "time_value": [6]}],
+        "prepositioning_activities": [{"activity": "Prepare water-storage containers, hygiene items and accessible information materials for rapid dispatch", "activation_one": true, "activation_two": true}],
+        "early_action_activities": [{"activity": "Distribute water-storage and hygiene support and verify evacuation-centre readiness", "timeframe": 30, "time_value": [3], "activation_one": true, "activation_two": true}]
+      },
+      {
+        "sector": 105,
+        "people_targeted": 10000,
+        "budget_per_sector": 20000,
+        "indicators": [{"title": "People receiving accessible cyclone early-warning and household preparedness messages", "target": 10000}],
+        "readiness_activities": [{"activity": "Test community early-warning channels, accessible message formats and feedback routes", "timeframe": 20, "time_value": [6]}],
+        "prepositioning_activities": [{"activity": "Prepare approved message templates, communication airtime and volunteer call-down lists", "activation_one": true, "activation_two": true}],
+        "early_action_activities": [{"activity": "Disseminate accessible warnings and support households to complete priority preparedness actions", "timeframe": 30, "time_value": [3], "activation_one": true, "activation_two": true}]
+      }
+    ],
+    "enabling_approaches": [
+      {
+        "approach": 20,
+        "budget_per_approach": 15000,
+        "indicators": [{"title": "Branches able to activate the cyclone EAP using tested procedures", "target": 10}],
+        "readiness_activities": [{"activity": "Run a simulation of the forecast monitoring, authorization, logistics and reporting workflow", "timeframe": 20, "time_value": [6]}],
+        "prepositioning_activities": [{"activity": "Maintain the branch activation roster, supplier contacts and transport agreements", "activation_one": true, "activation_two": true}],
+        "early_action_activities": [{"activity": "Coordinate branch mobilization and daily operational reporting after activation", "timeframe": 30, "time_value": [3], "activation_one": true, "activation_two": true}]
+      }
+    ],
+    "budget_file": "budget",
+    "total_budget": 100000,
+    "readiness_budget": 25000,
+    "pre_positioning_budget": 25000,
+    "early_action_budget": 50000,
+    "budget_description": "The total budget combines readiness investments, pre-positioning costs and early-action delivery across shelter, WASH, risk-reduction and National Society strengthening activities.",
+    "readiness_cost_description": "Readiness costs cover training, simulations, community engagement preparation, inclusive communication materials, monitoring tools and protocol reviews.",
+    "prepositioning_cost_description": "Pre-positioning costs cover supplier readiness, storage, transport planning, communication airtime and preparation of shelter, water-storage and hygiene items.",
+    "early_action_cost_description": "Early-action costs cover branch mobilization, accessible warnings, transport, distributions, evacuation-centre support, monitoring and feedback during the activation window.",
+    "eap_endorsement": "This training example assumes that the National Society leadership and relevant coordination partners have reviewed the proposed protocol. A real submission must replace this text with evidence of the actual endorsement process."
+  }
+}

@@ -18,6 +18,15 @@ def test_verification_reports_nested_difference() -> None:
     assert report.differences[0]["path"] == "planned_operations.0.budget_per_sector"
 
 
+def test_verification_normalizes_numeric_full_eap_lead_time() -> None:
+    report = compare_expected_payload(
+        {"lead_time": "3"},
+        {"lead_time": 3},
+    )
+
+    assert report.ok
+
+
 def test_verification_reports_extra_top_level_and_nested_list_items() -> None:
     report = compare_expected_payload(
         {

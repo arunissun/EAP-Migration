@@ -39,6 +39,10 @@ class Settings(BaseSettings):
         default=None,
         validation_alias=AliasChoices("GO_EAP_CONTACT_EMAIL", "contact_email"),
     )
+    contact_phone: str | None = Field(
+        default=None,
+        validation_alias=AliasChoices("GO_EAP_CONTACT_PHONE", "contact_phone"),
+    )
     timeout_seconds: float = Field(
         default=30.0,
         validation_alias=AliasChoices("GO_EAP_TIMEOUT_SECONDS", "timeout_seconds"),
@@ -84,9 +88,12 @@ class Settings(BaseSettings):
         return self.api_token.get_secret_value().strip()
 
     def contact_environment(self) -> dict[str, str]:
-        if not self.contact_email or not self.contact_email.strip():
-            return {}
-        return {"GO_EAP_CONTACT_EMAIL": self.contact_email.strip()}
+        environment: dict[str, str] = {}
+        if self.contact_email and self.contact_email.strip():
+            environment["GO_EAP_CONTACT_EMAIL"] = self.contact_email.strip()
+        if self.contact_phone and self.contact_phone.strip():
+            environment["GO_EAP_CONTACT_PHONE"] = self.contact_phone.strip()
+        return environment
 
 
 def api_base_url(environment: Environment | Literal["stage"] = Environment.STAGE) -> str:
